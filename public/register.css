@@ -1,0 +1,126 @@
+body {
+    background: url('/storage/images/fondo_biblioteca.png') rgb(50, 50, 50) no-repeat center center fixed; ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.logo_bibliotech:hover {
+    opacity: 0.7;
+}
+.register-form {
+    background-color: rgb(0 0 0 / 15%) !important;
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    max-height: 700px;
+    overflow-y: auto;
+    position: relative;
+}
+.register-title {
+    margin-top: 10px;
+    color: #ffffff8c;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center; /* Center the title text */
+    margin-bottom: 10px; /* Adjust the bottom margin to give space for the line */
+}
+.register-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-radius: 2px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 10px auto 0;
+}
+.form-register-bibliotech {
+    display: flex !important;
+    justify-content: center !important;
+    width: 400px !important;
+    height: 600px !important;
+    background-color: transparent !important;
+}
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.form-group label {
+    margin-top: 50px;
+    color: #ffffff8c;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    color: #c7c7c7;
+    background-color: rgb(0 0 0 / 15%) !important;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px solid #ccc !important;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-group input[type="text"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="password"]::placeholder {
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #ffffff; /* Border color on focus */
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3); /* Orange outline */
+}
+.form-group .error-message {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    font-size: 14px;
+    color: #ff3333; /* Error message color */
+}
+.form-group .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #999; /* Icon color */
+}
+.submit-button-container {
+    text-align: right; /* Align button to the right */
+}
+.submit-button {
+    background-color: #ffffff; /* New background color */
+    color: rgb(50 50 50 / 100%);
+    -webkit-text-stroke: .5px;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.submit-button:hover {
+    background-color: #989898; /* Darker color on hover */
+}
+.already-registered {
+    font-size: 16px;
+    color: #cbcbcb; /* Orange color for the link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.already-registered:hover {
+    color: #909090; /* Darker orange on hover */
+}

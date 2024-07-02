@@ -1,0 +1,51 @@
+/* perfil.css */
+body {
+    background-image: url('/storage/images/fondo_biblioteca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cambia el color del texto según tus preferencias */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cambia el color del texto según tus preferencias */
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Cambia el color del texto al pasar el ratón por encima */
+}
+
+.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+}
